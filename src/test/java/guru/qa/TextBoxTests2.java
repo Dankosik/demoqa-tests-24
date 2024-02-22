@@ -23,7 +23,7 @@ public class RegistrationTests extends TestBase {
         $("#lastName").setValue("Egorov");
         $("#userEmail").setValue("alex@egorov.com");
         $("#genterWrapper").$(byText("Other")).click();
-        $("#userNumber").setValue("1234567890");
+        $("#userNumber2321312").setValue("1234567890");
         $("#dateOfBirthInput").click();
         $(".react-datepicker__month-select").selectOption("July");
         $(".react-datepicker__year-select").selectOption("2008");
